@@ -59,10 +59,10 @@ Default setting:
 
 At the end of these steps, the following files are generated:
 - deploy_comp.mat: all the deployment spots with their infos
-- user_comp.mat: all the users with their infos
-- fixed_emf_data.mat 
+- user_comp.mat: all the users with their info
+- fixed_emf_data.mat all measure spots with their info when No-Beamforming option is on
 - angle_3dB.mat: the azimuth and elevation 3dB angles for each beams of each sector
-- emf_data.mat: all measure spots with their infos
+- emf_data.mat: all measure spots with their info
 
 Moreover there is a directory "Data" in which the following files will be saved: `emf<accuracy>.mat` (for example: emf2.mat or emf16.mat) this file contains the avg emf and the emf confidence interval.
 
