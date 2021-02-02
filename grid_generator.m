@@ -9,7 +9,7 @@
 % Authors: Simone Rossetti, Sara Saida
 % Date: 21.01.2021
 % Version: 1.1
-%% Parameters definition 
+%% Parameters definition
 
 close all
 clear all
