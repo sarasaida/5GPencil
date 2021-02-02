@@ -24,7 +24,6 @@ num_user=64; %number of user per sector (max 64)
 measure=0; %1 for measure spot, 0 for deploy spot 
 plot_on=0; %1 to enable plot, 0 to disable plot
 
-
 %% Layout Definition
 
 %CREATION OF THE HEXAGONAL GRID centered in (0,0) 
