@@ -64,7 +64,7 @@ At the end of these steps, the following files are generated:
 - angle_3dB.mat: the azimuth and elevation 3dB angles for each beams of each sector
 - emf_data.mat: all measure spots with their infos
 
-Moreover there is a directory "Data" in which the following files will be saved: `emf<accuracy>.mat` (for example: emf2.mat or emf16.mat) this file contains the avg emf, the emf confidence interval, and the emf.
+Moreover there is a directory "Data" in which the following files will be saved: `emf<accuracy>.mat` (for example: emf2.mat or emf16.mat) this file contains the avg emf and the emf confidence interval.
 
 **NOTE for macOS users:**  all backslashes should be changed with forward slashes, because of Linux-friendly notation. For example line 649 should be changed as follows:
 `fname=join(['Data/emf',num2str(accuracy),'.mat']);`
