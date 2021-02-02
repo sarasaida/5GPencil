@@ -18,7 +18,7 @@ Symbolic Math Toolbox
 
 
 Project Structure:
-Thr project is composed by the following files
+The project is composed by the following files
 - grid_generator.m
 The goal of this module is to define the cells layout and to generate the 'Deployment spots' (points where the beam will be directed)
 and 'Measure spots' (points that measure the power density and the electric field)
