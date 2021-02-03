@@ -169,7 +169,7 @@ for j=1:size(deploy_spot_comp,1)
             dpp=norm(p1-p2);
             dp1_eff=sqrt((dp1^2)+(effective_h^2)); %effective distance from center
             dp2_eff=sqrt((dp2^2)+(effective_h^2));
-            %cos(alpha)=((b^2)+(c^2)-10^2)/(2*b*c)) with a,b,c side of triangle
+            %cos(alpha)=((b^2)+(c^2)-a^2)/(2*b*c)) with a,b,c side of triangle
             az3dB=acosd(((dp1_eff^2)+(dp2_eff^2)-(dpp^2))/(2*dp1_eff*dp2_eff));
             if az3dB < angle_min
                 az3dB = angle_min;
@@ -200,7 +200,7 @@ for j=1:size(deploy_spot_comp,1)
             dpp=norm(farthest-nearestp); %point-point distance
             near_eff=sqrt((near^2)+(effective_h^2)); %effective distance from center
             far_eff=sqrt((far^2)+(effective_h^2));
-            %cos(alpha)=((b^2)+(c^2)-10^2)/(2*b*c)) with a,b,c side of triangle
+            %cos(alpha)=((b^2)+(c^2)-a^2)/(2*b*c)) with a,b,c side of triangle
             el3dB=acosd(((near_eff^2)+(far_eff^2)-(dpp^2))/(2*near_eff*far_eff));
             if el3dB < angle_min
                 el3dB = angle_min;
